@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alberto Garcia - Backend Developer</title>
+    <style>
+        :root {
+            --primary: #000;
+            --secondary: #666;
+            --background: #fff;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+            color: var(--primary);
+            line-height: 1.6;
+            background: var(--background);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .name {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin: 0 0 0.5rem 0;
+        }
+        
+        .title {
+            font-size: 1.1rem;
+            color: var(--secondary);
+            margin: 0 0 1.5rem 0;
+        }
+        
+        .bio {
+            text-align: center;
+            font-size: 1rem;
+            margin-bottom: 2.5rem;
+            padding: 0 1rem;
+        }
+        
+        .btn-container {
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+            margin-bottom: 2.5rem;
+        }
+        
+        .btn {
+            display: block;
+            padding: 1rem 1.5rem;
+            text-decoration: none;
+            background: var(--primary);
+            color: white;
+            text-align: center;
+            border-radius: 10px;
+            transition: all 0.2s ease;
+            font-weight: 500;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        
+        .contact {
+            text-align: center;
+            border-top: 1px solid #eee;
+            padding-top: 2rem;
+        }
+        
+        .email {
+            color: var(--secondary);
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+        
+        .email:hover {
+            color: var(--primary);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 class="name">Alberto Garcia</h1>
+        <p class="title">Backend Developer</p>
+    </div>
+    
+    <div class="bio">
+        Programador backend con experiencia en Docker, FastAPI, Python, VS Code y experiencia en interacción con modelos de IA (prompting).
+    </div>
+    
+    <div class="btn-container">
+        <a href="https://docs.google.com/document/d/1TtNnv0Ib3Gv6pVgKOYApd0_sC8rIeLeVu2_MZvDwPCo/edit?usp=sharing" class="btn" target="_blank">Ver CV</a>
+        <a href="https://docs.google.com/document/d/1XvVsY53ltyL31tOH1MGo9q1q7uVa77fLrhhbqdb53JI/edit?usp=sharing" class="btn" target="_blank">Ver Carta de Presentación</a>
+    </div>
+    
+    <div class="contact">
+        <a href="mailto:mmhgarcia@gmail.com" class="email">mmhgarcia@gmail.com</a>
+    </div>
+</body>
+</html>
